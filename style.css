@@ -1,0 +1,76 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-image: url('img/sfondolegno.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+header, footer {
+width: 80%;
+margin: 30px auto;
+position: relative;
+}
+
+img{
+width: 150px;
+}
+
+.logogmail {
+position: absolute;
+margin-top: 55px;
+margin-left: 10px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.search {
+margin-top: 10px;
+
+}
+
+h1, h2 {
+    color: white;
+    font-size: 25px;
+    font-weight:normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.unread{
+background-color: orange;
+border-radius: 25px;
+padding: 10px;
+}
+
+
+.content {
+width: 80%;
+background-color: lightgrey;
+margin: auto;
+border: 1px solid black;
+
+}
+
+ .content:hover    {
+    width: 80%;
+    background-color: #efe3e3;
+    margin: auto;
+    border: 1px solid black;
+
+    }
+.subject {
+width: 35%;
+display: inline-block;
+}
+
+.object {
+width: 60v%;
+display: inline-block;
+
+}
